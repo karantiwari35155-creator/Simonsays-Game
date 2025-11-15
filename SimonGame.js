@@ -17,7 +17,7 @@ document.addEventListener("keypress", function () {
     }
 });
 
-function gameFlash(btn) {
+function gameFlash(btn){
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
